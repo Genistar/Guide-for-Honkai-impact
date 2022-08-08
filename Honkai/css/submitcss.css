@@ -1,0 +1,177 @@
+@charset "utf-8";
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body{
+	background: none;
+	width: 100%;
+	margin:0px auto;
+	object-fit: cover;
+	z-index: 1;
+	overflow-x: hidden;
+}
+.bgtop{
+    width: 100%;
+    height: 100%;
+}
+img.bgimg {
+	object-fit: cover;
+}
+.bgtop .bgimg{
+	width: 100%;
+	height: 330px;
+}
+.menu{
+/*
+	background:url("../image/honkai-menu.png") no-repeat 700px,#8D4344;
+	background-blend-mode:soft-light;
+*/	background:transparent url(https://walkthrough.honkaiimpact3.com/_nuxt/img/a7d37f7.png) no-repeat center center;
+	width: 100%;
+	height: 200px;
+	margin-top: -30px;
+}
+.bg-news {
+	background:#181818 url(https://walkthrough.honkaiimpact3.com/_nuxt/img/dbd0e34.png) center top repeat-y;
+	position: absolute;
+	height: 1020px;
+	width: 100%;
+	margin-top: -20px;
+}
+.tonghop{
+	margin-top: 0px;
+	background:#CEC3C3; 
+	width: 1000px;
+	height:1000px;;
+	position: relative;
+	margin-left: 17%;
+	object-fit: fill;
+	float: left;
+}
+.bot{
+	background:#0A0203;
+	height: 220px;
+	width: 100%;
+	float: left;
+}
+.Menu1 .mn .li1,.Menu1 .mn .li3{
+	float: left;
+	width: 91px;
+	font-size: 15px;
+	text-align: center;
+	margin-left: 0px;
+}
+.Menu1 .mn .li3{
+	background:#BA4547; 
+}
+.menu .mn{
+	margin-left: 17%;
+	margin-top: 0px;
+	display: flex;
+	flex-direction: none;
+}
+.Menu1 .mn a{
+	margin-top: 110px;
+}
+.menu .tieude{
+	font-family:amaranth;
+	margin-top: -4px;
+	color: aliceblue;
+	margin-left: 17%;
+}
+.li1,.li3{
+	cursor: pointer;
+	list-style: none;
+	color:#CA8C8C ;
+	padding: 5px 15px 5px 15px;
+}
+.tieude{
+	font-size:40px;
+	font-family: "abril-fatface";
+}
+.menu .Menu1 .mn .li1 .mnimg,.menu .Menu1 .mn .li3 .mnimg{
+	width: 35px;
+	height: 35px;
+	padding: 0px 0px 0px 5px;
+	object-fit: cover;
+}
+/*
+.menu .mn .a{
+	display: block;
+	background: #BA4547;
+}
+*/
+.menu .mn .li1:hover {
+	background: #BA4547;
+}
+.menu .tieude h6{
+	font-size: 22px;
+	margin: 0px;
+}
+.tin  .submit{
+	background:none; 
+	width: 300px;
+	height: 300px;
+	float: left;
+}
+.bot .logo-hk3{
+	margin:2% 0px 0px 20%;
+	float: left;
+}
+.bot .txt-end{
+	float: left;
+	color: aliceblue;
+	height: 80px;
+	margin:6% 0px 0px 4%;
+	border-left: solid 1px;
+	padding:10px 0px 10px 20px;
+}
+.bot .txt-end a{
+	color: aliceblue;
+	margin-right: 20px;
+	text-decoration: none;
+}
+.name{
+	margin: 17%;
+}
+.name .fname{
+	margin-left: 15px;
+}
+.name .Category{
+	margin-left: 30px;
+}
+.name .mail{
+	margin-left: 38px;
+}
+.name .fname , .name .mail , .name .Category{
+	border-radius: 5px;
+	border: 0.5px;
+	height: 30px;
+	margin-bottom: 10px;
+}
+.name .ghichu{
+	border-radius: 5px;
+	border: 0.5px;
+	margin-bottom: 10px;
+}
+.tonghop .submit{
+	margin: 10% auto;
+	height: 700px;
+	width: 1000px;
+	border-top: solid 1px;
+}
+.btnsubmit{
+	background: #FF3F00;
+	height: 50px;
+	width: 100px;
+	float: right;
+	color: aliceblue;
+	font-size: 20px;
+	border-radius: 10px;
+}
+.reportsub p{
+	font-family: Constantia, "Lucida Bright", "DejaVu Serif", Georgia, "serif";
+	font-size: 50px;
+	margin-bottom: -100px;
+}

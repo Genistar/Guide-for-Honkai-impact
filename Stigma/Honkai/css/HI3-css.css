@@ -1,0 +1,221 @@
+@charset "utf-8";
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body{
+	background: none;
+	width: 100%;
+	margin:0px auto;
+	object-fit: cover;
+	z-index: 1;
+}
+.bgtop{
+    width: 100%;
+    height: 100%;
+}
+img.bgimg {
+	object-fit: cover;
+}
+.bgtop .bgimg{
+	width: 100%;
+	height: 330px;
+}
+.menu{
+/*
+	background:url("../image/honkai-menu.png") no-repeat 700px,#8D4344;
+	background-blend-mode:soft-light;
+*/	background:transparent url(https://walkthrough.honkaiimpact3.com/_nuxt/img/a7d37f7.png) no-repeat center center;
+	width: 100%;
+	height: 200px;
+}
+.bg-news {
+	background:#181818 url(https://walkthrough.honkaiimpact3.com/_nuxt/img/dbd0e34.png) center top repeat-y;
+	position: absolute;
+	height: 970px;
+	width: 100%;
+	margin-top: -20px;
+}
+.tonghop{
+	margin-top: 0px;
+	background:none; 
+	width: 100%;
+	height:auto;
+	position: relative;
+	margin-left: 17%;
+	object-fit: fill;
+}
+.sns{
+	background:#CEC3C3; 
+	width: 700px;
+	height: auto;
+	float: left;
+}
+.tin{
+	background:none;
+	width: 300px;
+	height: 950px;
+	z-index: 2;
+	float: left;
+}
+.bot{
+	background:#0A0203;
+	height: 220px;
+	width: 100%;
+	float: left;
+}
+.Menu1 .mn .li1{
+	float: left;
+	width: 91px;
+	font-size: 15px;
+	text-align: center;
+	margin-left: 0px;
+}
+.menu .mn{
+	margin-left: 17%;
+	margin-top: 0px;
+	display: flex;
+	flex-direction: none;
+}
+.Menu1 .mn a{
+	height: 70px;
+	width: 91px;
+	margin-top: 110px;
+}
+.menu .tieude{
+	font-family:amaranth;
+	margin-top: -4px;
+	color: aliceblue;
+	margin-left: 17%;
+}
+.li1{
+	cursor: pointer;
+	list-style: none;
+	color:#ffffff ;
+	padding: 5px 15px 5px 15px;
+}
+.tieude{
+	font-size:40px;
+	font-family: "abril-fatface";
+}
+.menu .Menu1 .mn .li1 .mnimg{
+	width: 35px;
+	height: 35px;
+	padding: 0px 0px 0px 5px;
+	object-fit: cover;
+}
+.menu .mn .a{
+	display: block;
+	background: #BA4547
+}
+.menu .mn .li1:hover {
+	background: #BA4547;
+}
+.menu .tieude h6{
+	font-size: 22px;
+	margin: 0px;
+}
+.tin  .submit{
+	background:none; 
+	width: 300px;
+	height: 300px;
+	float: left;
+}
+.sm{
+	background: #000000;
+	height: 280px;
+	width: 280px;
+	margin: 10px auto;
+}
+.img-sm{
+	height: 280px;
+	width: 280px;
+}
+.sm:hover{
+	transform: scale(1.05,1.05);
+	transition: 0.5s;
+}
+.tin .lastpost{
+	background:#CEC3C3;
+	width: 300px;
+	height: 650px;
+	float: left;
+}
+.tin .lastpost .lp{
+	background:#1A1919;
+	position: absolute;
+	color: aliceblue;
+	width: 100px;
+	height: 30px;
+	margin: 10px;
+	padding: 5px 6px 5px 10px;
+	z-index: 2;
+}
+.under{
+	background: #4D4A4A;
+	opacity: 0.4;
+	width: 200px;
+	height: 20px;
+	margin: 15px;
+}
+.tin .lastpost .tintuc .li2{
+	list-style: none;
+	color:#4F4F33;
+	margin-top: 15px;
+	margin-bottom: 10px;
+	padding-bottom: 5px;
+	margin-left: 25px;
+	border-bottom: dashed 2px;
+}
+.news{
+	text-decoration: none;
+}
+.bot .logo-hk3{
+	margin:2% 0px 0px 20%;
+	float: left;
+}
+.bot .txt-end{
+	float: left;
+	color: aliceblue;
+	height: 80px;
+	margin:6% 0px 0px 4%;
+	border-left: solid 1px;
+	padding:10px 0px 10px 20px;
+}
+.bot .txt-end a{
+	color: aliceblue;
+	margin-right: 20px;
+	text-decoration: none;
+}
+.sticky{
+   position: fixed;
+   top: 0px;
+   left: 0px;
+   z-index: 1000;
+}
+
+.back-to-top { 
+	bottom: 35%; 
+	right: 100px; 
+	cursor: pointer;  
+	position: fixed; 
+	z-index: 1000;
+	background:crimson; 
+	border:2px solid #fff; 
+	border-radius:50%; 
+	padding:11px 12.5px; 
+	box-shadow: 1px 3px 5px 0px rgba(0, 0, 0, 0.3);
+	visibility: hidden;
+  	opacity: 0;
+}
+
+.back-to-top img {
+	width:30px; 
+	height:30px;
+}
+.back-to-top.hien-ra{
+	visibility: visible;
+   	opacity: 1;
+}
+

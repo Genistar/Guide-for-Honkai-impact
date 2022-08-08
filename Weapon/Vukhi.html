@@ -1,0 +1,229 @@
+<!doctype html>
+<html>
+<head>
+<link rel="stylesheet" href="Honkai/owlcarousel/assets/owl.carousel.min.css">
+<link rel="stylesheet" href="Honkai/owlcarousel/assets/owl.theme.default.min.css">
+<script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+<script src="Honkai/owlcarousel/owl.carousel.min.js"></script>
+<meta charset="utf-8">
+<title>Equipment</title>
+</head>
+<script>
+	$(document).ready(function(){
+  	var owl = $('.owl-carousel');
+		owl.owlCarousel({
+			items:1,
+			loop:true,
+			margin:10,
+			autoplay:true,
+			autoplayTimeout:5000,
+			autoplayHoverPause:true,
+			nav: true,
+			dots:false
+		});
+		$('.play').on('click',function(){
+    		owl.trigger('play.owl.autoplay',[1000])
+		})
+		$('.stop').on('click',function(){
+    		owl.trigger('stop.owl.autoplay')
+		})
+});
+	</script>
+<body>
+	<style>
+		* {
+			margin: 0;
+			padding: 0;
+		}
+		body{
+			margin: 0px 1% 0px ;
+			height: 950px;
+			width: 700px;
+		}
+		
+		.slide_autoplay{
+			background: #CEC3C3;
+			height: 300px;
+			width: 700px;
+			margin-left: -10px;
+			float: left;
+		}
+		.img_s{
+			width: 700px;
+			height: 255px;
+			padding: 0px 40px;
+			box-sizing: border-box;
+		}
+		.slide_autoplay .owl-prev{
+			position: absolute;
+			left:35px;
+		}
+		.slide_autoplay .owl-next{
+			position: absolute;
+			left:627px;
+		}
+		.slide_autoplay .owl-top-news .otn{
+			background: #4D4A4A;
+			width: 620px;
+			height: 25px;
+			margin-top: 10px;
+			margin-left: 40px;
+			margin-bottom: 10px;
+			opacity: 0.4;
+		}
+		.slide_autoplay .owl-top-news .owl-top_n{
+			background: #1A1919;
+			margin-top: -5px;
+			margin-left:40px;
+			position: absolute;
+			color: aliceblue;
+			font-size:20px;
+			padding: 5px 15px 5px 10px;
+			z-index: 2;
+		}
+		.news-team-val{
+			height: 650px;
+			width: 700px;
+			float: left;
+			margin-top: 30px;
+			margin-left: 20px;
+		}
+		.news-team{
+			background: #000000;
+			height: 30px;
+			width: 120px;
+			color: aliceblue;
+			font-size: 25Px;
+			text-align: center;
+			position: relative;
+			z-index: 3;
+		}
+		.news-t{
+			background: #686666;
+			height: 20px;
+			width: 650px;
+			margin-top: -25px;
+			margin-bottom: 30px;
+			opacity: 0.6;
+			z-index: 1;
+		}
+		.team{
+			border: solid 1px;
+			height: 100px;
+			width: 660px;
+		}
+		.team .boss{
+			border-right: solid 1px;
+			height: 100px;
+			width: 200px;
+			float: left;
+		}
+		.team .val{
+			width: 310px;
+			height: 100px;
+			border-right: solid 1px;
+			float: left;
+		}
+		.boss-t{
+			height: 80px;
+			margin-top: 10px;
+		}
+		.val-team{
+			margin: 5px;
+		}
+		.val-t{
+			height: 90px;
+			width: 100px;
+			float: left;
+		}
+		.team .damg{
+			height: 100px;
+			width: 120px;
+			float: left;
+		}
+		.damg .d-tl{
+			background:#24200A;
+			height: 20px;
+			width: 110px;
+			margin-left: 10px;
+		}
+		.damg .d-tl .damg-tl{
+			background:#EBBB2E;
+			height: 20px;
+			width: 86.38575px;
+		}
+		.damg .d-tl .damg-tl2{
+			background:#EBBB2E;
+			height: 20px;
+			width: 86.5315px;
+		}
+		.damg .d-tl .damg-tl3{
+			background:#EBBB2E;
+			height: 20px;
+			width: 84.18575px;
+		}
+		.damg .d-tl .damg-tl4{
+			background:#EBBB2E;
+			height: 20px;
+			width: 86.0915px;
+		}
+		.damg .d-tl .damg-tl5{
+			background:#EBBB2E;
+			height: 20px;
+			width: 85.94575px;
+		}
+		.txt{
+			font-size: 20px;
+			margin-left: 10px;
+		}
+		.btn1,.btn2{
+			background: #252D4A;
+			height: 40px;
+			width: 35px;
+			float: left;
+			text-decoration: none;
+			color: #FFFFFF;
+			text-align: center;
+			padding-top: 10px;
+			margin-bottom: 10px;
+			margin-left: 10px;
+		}
+		.btn{
+			margin-left: 40%;
+		}
+	</style>
+	<div class="slide_autoplay">
+			<div class="owl-top-news">
+				<div class="owl-top_n">TOP Equipment</div>
+				<div class="otn"></div>
+			</div>
+			<div class="owl-carousel owl-theme">
+			<div class="owl-hover">
+    		<a href="Vùng Đất Trừng Phạt Phán Quyết.html" class="slide" target="_top">
+				<img src="https://lh5.googleusercontent.com/IDCCJl3vNZ5nDswgaxvICw5mrHxer0hkND6EURdjfTjtg-HycEyKylwNxh17VbKPILWbnsddffTNPXJXy5eNW9Ig49PLe6PBXi6avTjvTHiPxmr_J2w1_Z6YDI9_RHp8s_17pru1" alt="" class="img_s" width="100%" height="100%" style=" object-fit: cover">
+
+			</a>
+			</div>
+			<div class="owl-hover">
+			<a href="Khúc Hát Đêm Đen.html" class="slide" target="_top">
+				<img src="https://lh4.googleusercontent.com/6JTn3fvrTIjMXUMrvdiC60fbzZNhq3iVgXFP8R6VcCSLB94jUPunTPkepCZwolx8iVk5ldIFuQh7ecD46KZ8KYjomSvucBcHlOLesGvb_sSo4W-HltUZdiWhbhKH1Frl4VxOI4RZ" alt="" class="img_s" width="100%" height="100%" style=" object-fit: cover">
+			</a>
+			</div>
+		</div>
+		</div>
+	<div class="news-team-val">
+	<div class="news">
+		<div class="news-team">Equipment
+	</div>
+	<div class="news-t"></div>
+	</div>
+		<iframe src="Vk1.html" width="700px" height="560px" frameborder="0" name ="vt"></iframe>
+			<center > 
+				<div class="btn">
+					<a href="vk1.html" target="vt" class="btn1">1</a>
+					<a href="vk2.html" target="vt" class="btn1">2</a>
+				</div>
+			</center>
+	</div>
+</body>
+</html>

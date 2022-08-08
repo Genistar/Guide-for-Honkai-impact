@@ -1,0 +1,51 @@
+/**
+ * 创建localStorage
+ * @param key
+ * @param source
+ * @param lifetime
+ */
+function setStorage(key, source, lifetime = 0) {
+    var expire = 0;
+    if (lifetime > 0) {
+        expire = time() + lifetime;
+    }
+    var data = {
+        source: source,
+        expire: expire
+    };
+    localStorage.setItem(key, JSON.stringify(data));
+}
+
+/**
+ * 获取localtorageS，若过期则删除
+ * @param key
+ * @returns {*}
+ */
+function getStorage(key) {
+    var storage = localStorage.getItem(key);
+    if (storage == null) {
+        return null;
+    }
+    var data = JSON.parse(storage);
+    if (data.expire > 0 && data.expire < time()) {
+        localStorage.removeItem(key);  //过期则删除
+        return null;
+    }
+    return data.source;
+}
+
+/**
+ * 删除localStorage
+ * @param key
+ */
+function deleteStorage(key) {
+    return localStorage.removeItem(key);
+}
+
+/**
+ * 获取当前秒级时间戳
+ * @returns {number}
+ */
+function time() {
+    return Math.floor(new Date().getTime() / 1000);
+}

@@ -1,0 +1,150 @@
+<!doctype html>
+<html>
+<head>
+<link rel="stylesheet" href="Honkai/owlcarousel/assets/owl.carousel.min.css">
+<link rel="stylesheet" href="Honkai/owlcarousel/assets/owl.theme.default.min.css">
+<script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+<script src="Honkai/owlcarousel/owl.carousel.min.js"></script>
+<meta charset="utf-8">
+<title>testhover</title>
+</head>
+	<script>
+	$(document).ready(function(){
+  	var owl = $('.owl-carousel');
+		owl.owlCarousel({
+			items:1,
+			loop:true,
+			margin:10,
+			autoplay:true,
+			autoplayTimeout:5000,
+			autoplayHoverPause:true,
+			nav: true,
+			dots:false
+		});
+		$('.play').on('click',function(){
+    		owl.trigger('play.owl.autoplay',[1000])
+		})
+		$('.stop').on('click',function(){
+    		owl.trigger('stop.owl.autoplay')
+		})
+});
+	</script>	
+<body>
+	<style>
+		* {
+			margin: 0;
+			padding: 0;
+		}
+		body{
+			margin: 0px 1% 0px ;
+			height: 950px;
+			width: 700px;
+		}
+		.slide_autoplay{
+			background: none;
+			height: 300px;
+			width: 700px;
+			margin-left: -10px;
+			margin-bottom: 50px;
+			float: left;
+		}
+		.img_s{
+			width: 700px;
+			height: 255px;
+			padding: 0px 40px;
+			box-sizing: border-box;
+			object-fit: cover;
+		}
+		.slide_autoplay .owl-prev{
+			position: absolute;
+			left:35px;
+		}
+		.slide_autoplay .owl-next{
+			position: absolute;
+			left:627px;
+		}
+		.slide_autoplay .owl-top-news .otn{
+			background: #4D4A4A;
+			width: 600px;
+			height: 25px;
+			margin-top: 10px;
+			margin-left: 40px;
+			margin-bottom: 10px;
+			opacity: 0.4;
+		}
+		.slide_autoplay .owl-top-news .owl-top_n{
+			background: #1A1919;
+			margin-top: -5px;
+			margin-left:40px;
+			position: absolute;
+			color: aliceblue;
+			font-size:20px;
+			padding: 5px 15px 5px 10px;
+			z-index: 2;
+		}
+		iframe{
+			margin-top: -60px;
+			margin-left: 5px;
+		}
+	.page1,.page2{
+		background: #252D4A;
+		height: 40px;
+		width: 35px;
+		float: left;
+		text-decoration: none;
+		color: #FFFFFF;
+		text-align: center;
+		padding-top: 10px;
+		margin-bottom: 10px;
+		margin-top: -10px;
+		margin-left: 10px;
+	}
+	.page{
+		margin-left: 40%;
+	}
+	</style>
+	<div class="slide_autoplay">
+			<div class="owl-top-news">
+				<div class="owl-top_n">TOP VALKYRIE</div>
+				<div class="otn"></div>
+			</div>
+			<div class="owl-carousel owl-theme">
+			<div class="owl-hover">
+    		<a href="Herrscher of thunder.html" class="slide" target="_top">
+				<img src="Honkai/image/herrscher of thunder.png" alt="" class="img_s">
+<!--
+				<div class="owl-txt">
+						<h4>Fallen maryrose guide</h4>
+						</div>
+-->
+			</a>
+			</div>
+			<div class="owl-hover">
+			<a href="HOR.html" class="slide" target="_top">
+				<img src="https://scontent.fvca1-1.fna.fbcdn.net/v/t1.0-9/67473717_2380674408879301_4928408159648743424_o.png?_nc_cat=102&ccb=2&_nc_sid=730e14&_nc_ohc=daDo99qS-lsAX-MUUz5&_nc_ht=scontent.fvca1-1.fna&oh=cc01936742383c977a73b881983412e2&oe=5FC7D991" alt="" class="img_s">
+<!--
+				<div class="owl-txt">
+						<h4>Fallen maryrose guide</h4>
+						</div>
+-->
+			</a>
+			</div>
+				<div class="owl-hover">
+			<a href="HoV.html" class="slide" target="_top">
+				<img src="https://images.alphacoders.com/108/1081508.png" alt="" class="img_s">
+<!--
+				<div class="owl-txt">
+						<h4>Fallen maryrose guide</h4>
+						</div>
+-->
+			</a>
+			</div>
+		</div>
+		</div>
+	<div class="news">
+	<iframe src="newsvals.html" frameborder="0" height="600px" width="700px" scrolling="no" name="news1"></iframe>
+			<div class="page"><a href="newsvals.html" target="news1" class="page1">1</a></div>
+			<div class="page"><a href="newsval2.html" target="news1" class="page2">2</a></div>
+	</div>
+</body>
+</html>

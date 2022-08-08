@@ -1,0 +1,245 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Danzai Spectromancer</title>
+	<link rel="stylesheet" href="Honkai/css/HI3-css.css">
+	<script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+ 	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+ 	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+	<script src="../Honkai/js/Scroll.js"></script>
+</head>
+<body>
+	<style>
+		div.source{
+			background: #4B4A48;
+			height: 20px;
+			width: 380px;
+			float: left;
+			margin: 5px 0px 0px 5px;
+			opacity: 0.8;
+			color: #ffffff;
+			text-align: center
+		}
+		.back_btn{
+			background: #4B4A48;
+			height: 20px;
+			width: 50px;
+			float: right;
+			margin: 5px 5px 0px 0px;
+			opacity: 0.8;
+			text-align: center;
+		}
+		iframe{
+			margin-left: 7%;
+			margin-top: 5%;
+		}
+		a{
+			text-decoration: none;
+			color: #ffffff;
+		}
+		.header{
+			float: left;
+			margin-top: 20px;
+			margin-left: 20%;
+		}
+		.new-vals-guide{
+			float: left;
+			background: #D5D0D0;
+			width: 650px;
+			height:auto;
+			margin-left: 3.5%;
+			margin-top: 5%;	
+		}
+		img.vukhi{
+			margin-left: 15%;
+			height: 100px;
+			width: 400px;
+		}
+		.decuvetthanh{
+			margin-left: 15%;
+		}
+		img.vetthanh{
+			height: 100px;
+			width: 400px;
+			margin-left: 15%;
+		}
+		.decudoihinh{
+			margin-left:  17%;
+		}
+		img.doihinh{
+			height: 150px;
+			width: 420px;
+		}
+		.tongket{
+			margin-left: 30px;
+		}
+		.hot{
+			height: 400px;
+			width: 400px;
+			margin-left: 20%;
+		}
+		.bg-news {
+			background:#181818 url(https://walkthrough.honkaiimpact3.com/_nuxt/img/dbd0e34.png) center top repeat-y;
+			position: absolute;
+			height: 4799px;
+			width: 100%;
+			margin-top: -20px;
+		}
+		.tin .lastpost{
+			height: 4477px;
+		}
+	</style>
+	<div class="bgtop"><img src="Honkai/image/honkaibg.png" alt="trung yeu thanh" class="bgimg"></div>
+	<div class="menu">
+	<div class="Menu1">
+		
+		<ul class="mn">
+			<a href="../Trang chủ.html">
+			<li class = "li1">
+				<img src="Honkai/image/icon_home.png" alt="#" class="mnimg"> <br> 
+				Home
+			</li>
+			</a>
+			<a href="../Valkyrie.html">
+			<li class = "li1">
+				<img src="Honkai/image/Valkyrja_icon.png" alt="#" class="mnimg"> <br> 
+				Valkyrie
+			</li>
+			</a>
+			<a href="../Home_VK.html">
+			<li class = "li1">
+				<img src="Honkai/image/icon-weapon.png" alt="#" class="mnimg"> <br> 
+				Weapon
+			</li>
+			</a>
+			<a href="../Home_VT.html">
+			<li class = "li1">
+				<img src="Honkai/image/icon-stigma.png" alt="#" class="mnimg"> <br> 
+				Stigma
+			</li>
+			</a>
+			<a href="../Team-news.html">
+			<li class = "li1">
+				<img src="Honkai/image/Valkyrja_icon.png" alt="#" class="mnimg"> <br> 
+				Team
+			</li>
+			</a>
+		</ul>
+	</div>
+	</div>
+	<div class="bg-news"> </div>
+<!--	<img src="https://walkthrough.honkaiimpact3.com/_nuxt/img/dbd0e34.png" alt="" class="bg-n">-->
+	<div class="tonghop">
+		<div class="sns">
+			<div class="source"><a href="../Trang chủ.html">Trang chủ</a> > <a href="../Valkyrie.html">Valkyrie</a> > <a href="danzai.html">Danzai Spectromancer guide</a></div>
+			<div class="back_btn"><a href="../Valkyrie.html" >Back</a></div>
+			<br>
+			<div class="header"><h1>Danzai Spectromancer GUIDE</h1></div>
+			<div class="new-vals-guide">
+				<p>Xin chào và chào mừng bạn đến với hướng dẫn này Spectramancer Danzai, trong hướng dẫn này tôi sẽ giải thích các kỹ năng, thiết bị và các công cụ khác của "Herrscher of Thunder - Phiên bản tiết kiệm pin".</p>
+				<h2 class="skill">1.Kỹ năng</h2>
+				<p>Danzai Spectramancer / Pin tiết kiệm phiên bản HoT,DS từ bây giờ, là mới A xếp hạng Augment battlesuit mà chúng tôi sẽ nhận được trong v4.2. Cô đến từ Shadow Dash (phiên bản không tăng cường),cô có thể không phải là DPS hoặc hỗ trợ (như SA), với một atk kết hợp mạnh mẽ nhưng cũng có những kỹ năng buff vật lý khác nhau cho đồng đội của cô. <br>
+				Ai nói rằng mei của herrscher tài khoản sẽ là quá mạnh mẽ mà cô đã bị cấm và bây giờ cô sử dụng chế độ tiết kiệm pin này. ╮, 2019, 2019, 2019, 2019, 2019, 2019, 2019, ╭</p>
+				<iframe width="560" height="315" src="https://www.youtube.com/embed/HfYTXQ0HJJ0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+				<h2>2.Đề cử trang bị,Vết thánh</h2>
+				<p>Bánh răng chữ ký của DS được cho là justus thiết lập và Nue of Shadows, tuy nhiên bởi một số lý do không rõ họ đang phát hành đã bị trì hoãn đến v4.3. Vì vậy, đây chỉ là một số hướng dẫn thiết bị tạm thời. <br>
+				Giữa lúc Justus bị trì hoãn gần như là một meme ┻ ┻ □ như 90% Wotan.</p>
+				<img src="https://uploadstatic-sea.mihoyo.com/strategyweb/20200908/2020090810382411277.jpg" alt="Bị trì hoãn theo này">
+				<h3> Void Blade + Schrodinger T, Planck / Sirin Thăng hoa M, Lier B:</h3>
+				<img src="https://uploadstatic-sea.mihoyo.com/strategyweb/20200908/2020090810390479165.png" alt="đợi chút đang load đó" class="vukhi">
+				<p> Thiết lập này cung cấp một số tiền nổ của thiệt hại trong một thời gian ngắn để cơ bản của bạn / combo / tính phí mực do Schrodinger T. Tuy nhiên nó khá không ổn định và hoàn toàn ngẫu nhiên, trong các điều khoản khác: Tóc tiêu thụ.</p>
+				<h3>Void Blade + Mich TB, Sirin Thăng hoa M:</h3>
+				<img src="https://uploadstatic-sea.mihoyo.com/strategyweb/20200908/2020090810395390518.png" class="vukhi" alt="">
+				<p>Mich TB cung cấp hệ số nhân rất cao khi bạn có thể ngăn xếp chúng lên, với tổng cộng 40% thiệt hại vật chất và 70% thiệt hại crit,Sirin Thăng hoa M là ở đây cho thiệt hại crit của mình và đĩa CD kỹ năng trốn tránh.</p>
+				<h3>Mich TB + Planck M: </h3>
+				<img src="https://uploadstatic-sea.mihoyo.com/strategyweb/20200908/2020090810404650104.png" alt="" class="vukhi">
+				<p>Ở đây bạn thay thế Sirin Asc M với Planck M (51% thiệt hại vật lý) để có được mũ thiệt hại cao hơn để đổi lấy đĩa CD kỹ năng trốn tránh.</p>
+				<h3>Mich TB + Fuhua Knight M</h3>
+				<img src="https://uploadstatic-sea.mihoyo.com/strategyweb/20200908/2020090810412721013.png" alt="" class="vukhi">
+				<p>Với Mich TB trở thành farmable trong tiền thưởng cho 4.2,hiệu suất cap của rất nhiều thiết lập f2p sẽ đứng dậy, Fuhua Knight M giống như một phiên bản lite của Planck M.</p>
+				<h3> Jingwei T, Fuhua Knight M, Raven / Fuhua Pride B:</h3>
+				<img src="https://uploadstatic-sea.mihoyo.com/strategyweb/20200908/2020090810451361680.png" alt="" class="vukhi">
+				<p>Dễ dàng farmable f2p thiết lập, chỉ dành cho bossing.</p>
+				<h2>Thiên về hỗ trợ</h2>
+				<h3>Giữ chỗ katana + Beethoven TM, Newton B:</h3>
+				<img src="https://uploadstatic-sea.mihoyo.com/strategyweb/20200908/2020090810474946722.png" alt="" class="vukhi">
+				<p>Beethoven 2 thiết lập hiệu ứng cung cấp một buff ridiculously mạnh mẽ để valkyrie vật lý cận chiến tiếp theo chuyển sang sau khi đúc cuối cùng, DS có thể recast Newton B khi ra khỏi lĩnh vực này, mà làm cho noot của chúng tôi (Newt B của meme tên) thậm chí còn mạnh mẽ hơn.</p>
+				<h3>Giữ chỗ katana + Gluttony T, Mei PPM, Newton B:</h3>
+				<img src="https://uploadstatic-sea.mihoyo.com/strategyweb/20200908/2020090810491810384.png" alt="" class="vetthanh">
+				<p>Universal hỗ trợ kỳ thị thiết lập, Mei PPM giống như một noot mini vì vậy cô ấy cũng recastable bởi DS.</p>
+				<h3>Giữ chỗ katana + Gluttony T, FHM MB</h3>
+				<img src="https://uploadstatic-sea.mihoyo.com/strategyweb/20200908/2020090810480915518.png" alt="" class="vetthanh">
+				<p>
+				Universal f2p hỗ trợ thiết lập. <br>
+				Như tôi đã nói trước đây, điều này là khá tạm thời và không đầy đủ, chúng ta vẫn phải đợi cho đến khi bánh răng chữ ký của DS phát hành để xem làm thế nào những điều đi. <br>
+				DPS DS có vẻ khá vô dụng cho bây giờ với TP và VD là farmable và cả hai đều khá f2p thân thiện. <br>
+				Về hiệu suất của mình như là một hỗ trợ mà không có bánh chữ ký, cô không thể quá nhiều, tôi đã thực hiện một so sánh dưới đây giữa một dòng truyền thống lên (DPS + CH + SA) và một với DS (DPS + SA + DS). DPS và SA hoàn toàn hướng; cả CH và DS đều mặc Gluttony T, Mei PPM, Newt B.</p>
+				<h2>Đề cử đội hình</h2>
+				<p>Line Ups Bây
+				giờ, do các kỹ năng của mình, DS chỉ có vẻ ok như là một hỗ trợ trong các đội BKE và SP. Nhưng có lẽ trong tương lai, với valkyries mới phát hành, chúng ta có thể thấy một số công cụ funny.</p>
+				<h3>BKE SA DS (BKE SA DS)</h3>
+				<div class="decudoihinh">
+					<img src="https://uploadstatic-sea.mihoyo.com/strategyweb/20200908/2020090811110921171.png" alt="" class="doihinh">
+				</div>
+				<h3>SP DS SEELE</h3>
+				<div class="decudoihinh">
+					<img src="https://uploadstatic-sea.mihoyo.com/strategyweb/20200908/2020090811113491005.png" alt="" class="doihinh">
+				</div>
+				<p>Dưới đây là một số khuyến nghị bổ sung và ý kiến cá nhân về DS. <br>
+Đầu tiên, trong 4.2, tôi không thấy cô ấy rất
+hữu ích, không phải là DPS hoặc hỗ trợ: Là một DPS vật lý mech, DS rất tầm thường, meta valks như TP hoặc BK có thể dễ dàng vượt qua cô ấy, ngay cả VD kiana yêu quý của cô ấy, người có lối chơi tương tự cũng tốt hơn. <br>
+Như một sự hỗ trợ, cô chỉ có thể tỏa sáng với BKE hoặc SP (hướng tới BKE) và có thể với các bộ đồ chiến đấu DPS vật lý trong tương lai với các cuộc tấn công tích điện. Cô ấy bằng cách nào đó là một loại mech SA nhưng ít linh hoạt hơn, tuy nhiên làm một số nghiên cứu tôi thấy rằng cô ấy thậm chí còn tốt hơn CH với bánh răng chữ ký của mình trong nhóm của BKE, vì vậy chúng tôi vẫn phải chờ đợi để xem hiệu suất maximun của cô với bánh răng chữ ký. <br>
+Bây giờ nếu bạn nghi ngờ nó: Vâng, cô ấy là một sự hỗ trợ cá nhân của BKE. Atleast cho bây giờ. Họ thực sự buffed BKE một ε-('∀'; ) <br>
+Nhưng ngay cả với tất cả những gì đã nói, tôi khuyên bạn nên nuôi các mảnh SD và bắt đầu tiết kiệm Lõi nấu chảy: <br>
+1. Nếu bạn có BKE, cô ấy có thể sẽ tốt hơn CH với thiết bị đặc
+trưng của mình, làm cho các đội BKE trở thành đội thể chất đầu tiên không dựa vào CH. <br>2. Như tôi đã nói, có lẽ trong tương lai chúng tôi nhận được Valkyries vật lý mới có thể làm rất tốt với DS. <br>
+3. Cơ chế của cô recasting Newt B loại hiệu ứng có vẻ khá thú vị và trong tương lai, một số strats meta có thể đi ra từ nó. <br> <img src="https://uploadstatic-sea.mihoyo.com/strategyweb/20200908/2020090812003180997.jpg" alt="">
+Vì vậy, có, tiếp tục nuôi mảnh vỡ của mình nếu bạn không có bất cứ điều gì ưu tiên để trang trại với các giai đoạn câu chuyện (SSS xếp hạng HF, SSS xếp hạng DK, SS xếp hạng Snowy Sniper, SS xếp hạng WD, SSS xếp hạng VD và SS xếp hạng DP). <br>
+Và để kết thúc. Nhờ nhóm của Mihoyo để cho tôi được trong thử nghiệm này beta v4.2, cảm ơn bạn đồng đội trưởng của tôi những người đọc này và tôi hy vọng Mei được trở lại tài khoản Herrscher của cô.
+☆〜(ゝ。 ∂)</p>
+				<p>。 ・ ゚・(ノД')・ ゚・。</p>
+				<img src="https://uploadstatic-sea.mihoyo.com/strategyweb/20200908/2020090811170137150.gif" alt="" class="hot">
+			</div>
+		</div>
+		<div class="tin">
+			<div class="submit">
+				<a href="../Submit.html">
+					<div class="sm">
+						<img src="Honkai/image/submit.png" alt="" class="img-sm">
+					</div>
+				</a>
+			</div>
+	<div class="lastpost">
+			<div class="lp" >LASTPOST</div>
+			<div class="under"></div>
+			<ul class="tintuc">
+				<a href="Herrscher of thunder.html" class="news" target="_top"><li class="li2">Herrscher of Thunder Guide</li></a>
+				<a href="HOR.html" class="news" target="_top"><li class="li2">Herrscher of Reason Guide</li></a>
+				<a href="../Team/MK-HoT-MVT-BR.html" class="news" target="_top"><li class="li2">Boss:MK Valk:HoT-AE-BR</li></a>
+				<a href="../Team/MK-HoR-MVT-BADCORE.html" class="news" target="_top"><li class="li2">Boss:MK Valk:HoR-AE-BADCOR</li></a>
+				<a href="../Stigma/Benares.html" class="news" target ="_top"><li class="li2">Banares Stigma</li></a>
+				<a href="../Stigma/Fu Hua Thú Biên.html" class="news" target="_top"><li class="li2">Fuahua bách thú biên cương</li></a>
+				<a href="../Weapon/Vùng Đất Trừng Phạt Phán Quyết.html" class="news" target="_top"><li class="li2">Vùng đất trừng phạt phán quyết </li></a>
+				<a href="../Weapon/Bách Thủ Cự Nhân (Cuối).html" class="news" target="_top"><li class="li2">Bách thú cự nhân cuối</li></a>
+			</ul>
+		</div>	
+		</div>
+	</div>
+	<div class="back-to-top">
+		<img src="https://1.bp.blogspot.com/-k6sikOdzFXQ/VwqCKDosmEI/AAAAAAAAKxE/nLxLhkTIO6o3iE5ZWmtxo2bf4QHdzPQNQ/s1600/top.png" alt="">
+	</div>
+<!--	</div>-->
+	<div class="bot">
+		<div class="logo-hk3">
+			<img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAY0AAACTCAMAAABF0rW8AAAC8VBMVEUAAAD///////////////////////8DBgYAAAAEBwcDBgb///////////////////////8BAgL///////////////////////////////8CBQX///////////////////8DBQUjJSX///////////////////////////////8BAwP///////8CBQX///////////8DBQUCBAT///8CAwMBAwP///////////////8CBAT///////////8DBgb///////8CBAT///////8DBQX///8DBQX///////////8AAQH///8EBwcDBgb///////////////8DBQX///////8BAgICBAT///////////8DBgYDBQX///8CBAT///8DBQX///8DBQX///////8CBAT///////////8BAgL///8CBAT///8AAQH///////////////8CBAT///////////////8BAwMCAwP///////8EBgYDBgb///////////////////8CBAT///8CAwMDBwcAAQH///////8DBgYDBgb///8DBgYBAwMDBgb///8DBQUCBAT///////8DBgb///8YGhowMzMcHx8bHBz///8AAAAEBwcCBQUFCAgBAwPr6+sJDAxTVVUhJCQaHBwECAiSlJReYGANDw+np6fl5eXi4uLy8vLp6em3uLhCREQeICDu7++7u7tiY2M+QEA1ODj09PTV1tawsbGgoaGWl5dwcnJNT08mKSkWGRjT09O1trazs7MREhIICgr8/Pzd3t6trq4wMTEUFRX29vbX2NjLzMyqq6uLjY2jpKSam5uNjo5WV1c5Ozv6+/uPkZFmaGhYWlr5+fnBwcG9vr6YmZmDhITQ0dGJiop9fn5zdXVISkotLy/a2trGx8e/v7+HiIh/gYFsbm47PT3Oz8+cnp5LTU0qLS3Nzc3Dw8N7fHx5enpcXV3IycmTlZV2eHh1dnYzNTXFxcVqa2uCg4NQUlJ1d3d/j1JGAAAAmXRSTlMA/cnzLsYb8/44DtwNBjNPOTGwjyIVA++ynV8nEbiYfgb+jHFlSTccC8usi3Ud7OfPjIBeSu27taOhl25pQTbZrKeEe3FiRT4ZCPj14NXTUkUrI/r328O+lWxQQR7jzc3Au66pkYF4VEcwKOnn1dGIh4RaVykXFxLexLRrWyTm5MyfTQr78+CSVxDi2dHIvHtj36Y8Ad/e06htns5XAAAWkElEQVR42uzBgQAAAACAoP2pF6kCAAAAAAAAAAAAAAAAAGD27DQqqjKMA/iDRI6FmCdR0RKx1EQxKakoU0lKM+ukuS8dTc1s1RbXrKwszdI6p+3/zAKKyuK+m4oiCgpqqIC7uJVrpqZl9an33ve9M3NnxkHnnAk+8Pt0z+U9Z+a8//s+z3OZCjN6ejxVqRz6T7darQOoSiXQI9aq6UVVKt5Tn1qlBlSlwk2wKtWpSoWbajU8QFUqXJLV8AlVqUBja7dvX7uBhZXY2m5epSr/q5nVZwsxMbN9cfSnKv+jCacv4/ryEqjKTRhzG92Ir4dNJV9eSYNfu5Opyg2L71q9AZVvIrPvojMoD35tSY+jSqnWjHofJA6kSuUph8NhG0vl+cSWeo0TfB2ZfJRjU22qjO6FJrQOVSaD+HIxJ1F5HuVrWMTeRafxlEL4dyqWKqPmkKqRMjL6rVrkptnwUU2pPJHRTZo0aTmCnAYO1240pcBM5BWAncubQ3uwbQkK2ObVYkYfhX9ZPJYqo05QJpEuGsJDdcnQBMJL5N9946BzxlG3HnSBxdG4K68Cirg3+TeEDwJYy8M8U0rNgn/nRpO3V3tQRYuC8jhpPoYuipS3oWtCftWBVI+UJyD1pUAM41II+ey/ttfmTRCOcy/PAlYC/wqnk5cG35f905Yq2GNQmpNmBqRIkp6DrmdN8qduC0jRpAuHEkEBiGNOgbC+nFL1Ja+BUMoPeM4A6+d6KsqBm/xHvZKdsAOYVeFz1l0hgFsxauOxjR86s/LrXUgh4aRJhBRFgZjAv0OvQP47bX+OgbCPExqTh+Rh8YOYBz2alJTUiyVLFpzyuGucR6MqzRS3v6YK9zw0b4STrgWkW0i6Xe1yc/KvI6RGqnAZ2QRAFKDNAAq1Xfbndd4PYG82DyBvoxOYE7QtH2OTeDmc0tg+hNyNPQrhO6oEujcK6/Oy0barXSeNW8m/SCjawj6QnqBAqAJ0Rk8jOSk2adgY8iFZ7u+e9dyfPM3symnbFzn07h5v1bFlIZRitnn8NhubCWDHU1TZBJoGvQXpbqLOkELrUgDa8mzornISzWRNN99zVwE0h3KnTCOTV75kLsGqrY4a+sIEkYWdc/cfXADdtly2W62D3IepawBW9qZKx38a4Z3Jly4RRDV7QqpDHSA9GeCL30a1a+k8NYEPZGQc44nkJZ53QVrEpiYwZjJz/lIU8pQB6r1cpGHjndg/F7q14mjYHTwzbkzjuLg47b2j93ztdiV8OfefxiR0rEleOof2cRvOwjpB+oZ869yqZd9OI8mHGjVqtB/NK6BksI1PAdjAXQdof6qhURdtmdWjXpA+pW0N15+Sp3DqDuAyc1Jce/1OrIOZY1bOR1EBhAXMdpHOvJJrMd1KSv49No2majFlxlKw1Wx4R8R75G5Ss4jmgafRHWjdVM1idQbeJ6fbKDWQ3Q+z50lSy+vI5Q0HQ4i6g7zFWgUHb4BygNm+DcIstipzmB1zrIKNr0DazZ9anebYmC9lAqtsbK8ub9ltLNhTLRezDkP4h8VNPgdgaRaAH4niV2m3x1BwdX7kAwAvjH/saZJGNvoGQMiL0ZGBp4F3iKhpozefEcEMjm4o0ggDhpJQCybVyOnxvm1CgXrjn2jW/MkQAC3u8tmWZbedBWWJlbkYzsdZZ+PFbNP7QOpe6PazNMcuwxJFCshKZ5GZZOMdJ06cOLl6u2XpvlNFxf+yLgvYDCBzcXzyxMkZwKF4CqrwjjB8MYI0jWAIbUcu77Uc/1C7G0sjEqHdRRYfwSmxC1En1CfNi3DX3ZlFGJxCIPQMJ1/i9V3mBVDmMadBuigi0PGuPcu1jbbxT5DStpaVXb1aNs8qmgGLIqXnmM1zbJII6Bgky1ksduTaY86fz+cSNShY1y3ddzBtG7CiMQVT5Di4aUVEYXBzJxkGtobwsEca75LUwZRGzURx/064q1eLaFQrefTg5iVSRsHTI+TTA/qDXAZlCzPnQUlnq8wqExvYIS4WO6fVE/IL2lgWKWFvjLhWHA4uVOE6QmA4tgVCXnZaDoDSP4CcBhRM394Ok34R4wFzPkqYWmBOw5hoP/OacOvDw4NkeAguRrt6BF76XTcNVYDUqMT5UDbaHLLorJVdxMYbIfGf0C1jVaSEP7Xr4p80v6TzOVX3LHkw7DgFIHO59SKE7VqwP1BQ9UV5GqqjASnMnEZf0j0IUxq+d7cpKQO9z15feGt33TRcBQj7mPk3CPML9+cws3xp2Ca7iHPuusZZ0Kxizj3sijH3FyjL1QLszobh0KIUYA0vytSy+DtdBPvH6892E4YEqVwNRLnuJl0EpDbmNNAhTGgDzzT6wYdIUhpBCVWD8PvwYfh10pAFSFnM+lOdeWDuzpy8omWbmO02ngvNFTbmriW8y1h9KQvSOuZSea0nV6oSsByCYft64LhlJ4BCkdw6YG+qmhK+oqAYhfLJSfcWSC3MaSieaXSBL+NJebq1+fG/C768eb00VAG6vHHhwjKLxZIFLD2StxKalLXsbOp7LMudx2Cb7B65OVB28fmNcDrNqvKl7YbLsV+RP087IywsAcqMIaEbBUUYDOPeMPXc53rC8KQpjWo3lEZHKPdHter0MAyPkzLYXAajoLRObNWpPgy1fKcxRzaBC0dEGqtP/FUALDyyBIYM5tWQDqVAV8AXobswH8oyPgiXQ/w7dKs5BS5nso9k7xE3j5aUndruPkAnU1C85tZiIzrA0DKcugyFMurm02gOZfjTJHSfAWmw51PQTB0N1+cKk+qbqqKnZDn+pMxdCWXDkT1wWbseHs4zPFzkHLiJYUiOXVBUZgvhUspWpQcFxTOQHtPLywuQ6pt+wvj85tN4GdLbngPWrR5pyFftdp5tO9F8dMzi5fjz288wFG+BZuV8+R3WbIPJUj4Ls8O8E7rNBfJEqAVFls1wl2I9DqdV7LBK0yk4QqF7Qb6F3w3pY9LcA+nOm0+jhdfvsh+q1H2moSbeRHJSc3c0eZvWVY4/IQfOQPorA0LKpa2b1umbl7MaJulbYXZWtXls3KSnkrpVZcM/w6w4f9myo6Wlu0pF0Ked7+2jSQpSGvXkaDPUNIq2CziN8BBoQsllBHQdfaVRM9T1SCjPG/Oct8l8SnWDuZAyLgNYuZiF3C0AsjLg7gCfhGZ+wRajOfwKTeY8+U/5IrUAVywLVEp/H96gPuTChWwWSnBStHClNklBSiP0P2bOMzSKIAzDE+thCSIWsPeCvaBib1iwYwULduyCBXtBBUVQsPyZb+/WkjM5jWcSy3masySWqEnO3qJii7338stvdmZv5nZXiIjB50+4vb092Hdnvpn3ey/cgygtq+dfjY2eZn9Pga+i+tvUkJfeTIh1LK3f6pDG0cx6cTLAvzMz2VjOurnLh/jwgIRbHq8/hrODR7LPsR3KNz4tJQAYY8ncPR7S3Al72N99gNyjgoBb9+qQchlLOGcGEfx/arRqg4yPVmOpJacjK0f53lY1pI1Yiyi04Zez25bD4CIVBPfxZ97HhmLIuFmQcIOpEVCLOpxmh3Ies9EQvHfoNN97pJwFgHiKXAMxZp6CG+4bO0GckwCCsiGLLpYLNJO2RPDfqVFVOH6DVTXaOwRBavD351vVkOJ1IApVzZaUhZEg98ohuKOqoSGwnVVw33EaIRFS2TDKYls8VOr8E+OGH/8CDDaGko0TmFQAHh3trJtiQ29+0Y049hpzvB17cBYQwX+nRi+7h+usRgP+fi+rGtJW6ekQpltGLAyVDmGmMKhOZSYaTzhzynkP3KdsGlIB3z19Fyeog9uPodWYYpxxYf/3i1m5fr4zFDPfS2Bd8RT6BExTPin00FSjS9ui44iV/06NQU4ebguHzdsE/kX1HNQYoLqKgipyKKlUwCJgcgzEU+17zZ7sdGDcYWNAqeIP4TM74zE9Doz9KMduqnKcnWAIBDpT44JU48f7+D3cTtFaYsHSbF2//04Ne39Droga2MtyJ6cqXsdS9KW6Taz5haJwgQqygKVrGbcyKRI4APDgllHdM1EF09wANnqyE+lLrAUeZlz5/VQlBGaSjfdDMuVMFSOKewIsJshEjdjIfzVm886o3adyVkPGdJar/UW5r7SpUW+IGgdVWyBjrYkbnPQF5zSA78KP8p3i4yDAX17cSzNdb7gVYpi9ydlGKebe76MoNU7AbXPZ6zZbis9A93plFUd3yqjbSzS7dZv/aoz4YzXITLnXE8yiBt3sashXk2z+WQMSRTEXnJZLJRZu47x4ShVuoxu4U/QzjiUYlRzVeMXWXDpWHf9XqpCWJpNsGsL6VMnPAPkZiamDx9Bh9GhiJR/VaGEafwSJdPJa5UWN2aoNpX66oqMak615harO8dy2vDMqFkC6TzqwSqUI42g4ArpR7YPCZ8reS6+ymwpph+jxA6k/dqS+v6buDPETkR7uwWQcKG+/v6aC+6B1H71mXcsNWkdiIT/ViKWC4ctIyYZUUCUvasyjUUZVvSrSI3dSY1S0XVzS1G6hNQXtTpRLJUA7QwYQ3glv6nXubZyrsA9h2OpQXQRqbzHPDyDhA5ucgsFgBkCOYYUkCE9ku8w33KMqb0AfRxb0xUJijyrmpxrlGlOTmTJ1MzdPWcNFVLCo4YC5NZrIDzuqQSKeewE8ffZ6Kqhl/xmG4Dnobk9qPAezBgBJn06kpJw5knVT7MtZy+kenDfnMlbc32JBkc10PZGy5RO/yEFzaHhAD1CV6uBtzkK/TgMjP9XA6cXOkJJ5UmMQdaI4+Y0aZagTTUgUW0C6f19YEgdMPOyRBjh6wh+IBHk8esbHSM0/mXSURhMPEB+TrINmXiIyNKwml1tb8ztfKl/VKEvtTM5LgseupDzZroYsFBL5pqSfO+LNHoZhizULMtNzyQyOAJ/YHjHfKf48VUlG+Q5UB36eFxRuB7He3A6HD98Mh18cAcaMlj2mTOlRjPxTZH+jT4moLsQAwqn5+6fbjEqZycxNlDNK3m/HDIgqprr/ruwsvAqkKVH+RkSzAvGyD6FUgN37AXSPDvqzSxepJAcQj1fzQsZ9gIOMA3ro8uVnoVAoLi0uLikDjsXFxb2qrl023rx8v+9q8o8ZIvob9eQtUdQgna3zVF0iaGp53FdYgwgl+1MLXYlkjPr4O6u31u4X7orh7IIN4v+0qOhwR0Q8vVydV6w856SDuXZllq0kjR/WYc/e6sk0Bnn8Ev9glXe9pciTo+xFTM5XdhB5rv9zNVZS1eieZPuB0maq0riQ9FiFPL2jn+0VSra3tUMwyxoawTHpoLxzo2ma27Ofk65PI2SBZsHL8zp+syDrB0/6PlYHoY1wsSTZ4BYj6tIeTN76ztBLgcC7j2jhXoi58ObUudQbt3Jz735OyjlCA3ezst5mVCD/mp5RC/0S5W17rpp9lFig4m8vs4T9C6mLJkG78jRC4egi0Iu7DjWJQnslLr2yg2ML1qSZ+vOXCG4I80jP77lJJSHulVD/U+q6d8V1M2U/TUw5fepADo05dJ4+OUxdLmDk0oQZbdtO3EL+PQM6YTGYQwRlNmJF70pUikzis8r0NgOJSqn6uOhR7mZtnJnWW5aklRqONcRcvtmW/ogtgJe0VIZ67VoVNL5qwlziyMgKnJGEUY1nzvXtggw3oFW7C9zmgXSPJ327SjocUyzDx6BjbblKL9FdSTQ1nl7flnh8jz8pjYYfpJ6iO3Gt4L+VpaNNGYYtJL+IjSUK8+rYc+FlOgxYNbU3sVIoNvrY1NhyDjHf2IEd5pUkiP3j9YiNSnj6oN4kb1To23foUMjdJrgLIdz4ecC37XfsvQ4Zz2kEzE1DWszVt9Tl/8Xenca2HMYBHP/aXDFFprY2bTemtdXYyljNHFMax9gwzBxzDMPcVxwjrrgJ4s3zMAmNNO4rrrmFuG8Rr7xAQkLEEV77Pz3oC+JIKNFPmqb99/+8eX7p7//8n/9znKt55MYh4al52SvPnqlZIfeclCd2C1GlUvWUbB5BxI+ZendbgGfrGe2q/VhqB77l8Ba59ZwIuqr9Obzbpee0fCm3npLe8/LagXuVni23dm/33r29pZHHc17Lfsfuy7BPSP53DG6ljB3bqv/WF76L+DDtyyL5dRUVUp4QQW+k1qTSbFYv7dN7ofl4VIidT4XYs09ditQcm7ZE/LRBKlOJ/f4k37PGt2h9WiLggGr8BlVI7z0R4qFX+htiPSIrHf7qlOVncgBKw1rfskLKNyLgtVw6oFfA2pq3RKh9MhCmyHphv6SDbPTEK/t+97TW8nCgx/eet8d4AsbuF6EeBUcWDiXil8yVP5Tkm6+WjXYFRx0OIKD/XhFqezCJjSXiV8xaOWJCU35AwxHS+zFY6a3w6XJXhHoXvKNfy5+UXZJlqE37NhYbMHldbDdsiZBYF58mmYU2GGIxjpwGTFFv07PZWE63JDONM7QTnBY9Sp/YwjpA52yIM/ahdoKZ7BxnAzR6X3Fz6kzyO2slsiylaLrXr86YDJpMBhIyBwIzsgztoY4L2JQUm1OPn9NX1TM/ZpGU1wMjpiegLOlxRoS4UrFmmF9f/qTeDpGdQmyuLRky44uS5pMQDdFZ/mAIVzOxmAbNhLMJpIh4oI0jSZioI/Qss2AWY6wz0MSJ5RnaKQgBm/oV4hI6CnJ6dwcCxU0ihaQCMFax6f0lXIgCnAsgKr2oLBNGp1mFHqsAzCJpuSjlZ9Rawk+YKuWNwFPceWhG3RGhHnQiPNoVA/U7ulUN10ZjTUtNTStCKVwIzolATHsg1WDpDdaCPKBPWjKFRlLSnTqUuI7VzEBjQ6YV8qOZ7QJHiTsFn2VdoUG8MdWeCYnLrFVRpsSa4mOS7VbGCR3dhJ52jvKYmUyfrQK4oAFZZfxG86SsFP4FGFSSk3tEiItyJeGRqGrblW7siq0KSka0wRBtRZlkAGOMqs5yIG1ibon2s1DRGBevwzJSxTE6H5/Rue3AMbvMrsolTEyBqCijOdDfPg3M8cNjY5zQLM1oQ0mu1tHdueNwHe1zQVfFRGmBaALTYlQ00k0MTON3GiT9A3K3qT7IppUi1L6WhEn9eMAZo4ujez+nKT+Z5WWQnoDiFvXqiGygilWFoXN9kczAYsMCM2ZRNESMIaVunMhBo1usKyumq+icqGq0mRgI5I6Ow09Y8WWqKfGQla4LHJ4k0IsS0OXmmAqXweQ5qat0lIuq3Wgg8t0ig99JtXSf7/Y9t6WWNnw3xMEJhEu7WMA9KaouzMiz2/VYY2FkET6JeY4paCyLoY0R7G7GLKejC9wbirNAZyk2zEQTV+IoNDHZABYXJOfVAYyOajPxybRBt+F6GudA6aSocnwaR0FxKVB1on2hHqwJzF5M1Tx7EXHDqy3M4Ddr3ktuv6hauS0W7RAh3l6O7IkSBqqle+vSzQvSI744UlkzsgdHeLSVGq2fVnx23NM0/Aus/q/WL+rUdtgHEfRiX//IHg/h1etVJEn9NaaejCSpT+3dIQoCURSF4ddmD5PME4W3CbuWCRaTmBXsBpdwHzbTG2GCICZBDBZxByZxLLoI79jN74L/t4gTLtxzzJiFSEiZUTyl1QRCKr3xaifqOmEwy4DBTVQMBntV/095kNaZmLKgfxHVDB3Sy1+i3mHqkF52F7XmSmhBtxa1nTukt/w+PB8XHYf0ioeIbE6lgwG9fayqeuRgQe69zwyOmwAAAAAAAAAAAAAAAADATx9neWBGJyjKNQAAAABJRU5ErkJggg==" alt="" class="band">
+		</div>
+		<div class="txt-end">
+			<a href="#">PRIVACY POLICY </a> <a href="#">TERMS OF USE</a><br> <br>
+			SUPPORT MAILBOX <br>
+			honkai_HQ@mihoyo.com
+		</div>
+	</div>
+</body>
+</html>
